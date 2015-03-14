@@ -1,0 +1,10 @@
+{
+  "name": "signup-pw-strength-example",
+  "version": "0.0.1",
+  "dependencies": {
+    "password-sheriff": "1.0.0",
+    "lodash": "3.5.0",
+    "browserify": "9.0.3",
+    "uglify-js": "2.4.17"
+  }
+}
