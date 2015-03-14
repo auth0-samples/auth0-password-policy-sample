@@ -1,6 +1,7 @@
 # Custom Signup + Password strength
 
 This example shows how to use password policies configured in the Auth0 dashboard with a custom signup form.
+To see this example live, browse to http://auth0.github.io/custom-signup-password-strength/.
 
 ## Running the example
 
