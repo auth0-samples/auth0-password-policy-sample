@@ -23,7 +23,7 @@ $(document).ready(function () {
             return _.findWhere(dbConnections, {name: connection}).passwordPolicy;
         }
         // Change this to use an arbitrary database connection
-        var policy = getPolicy('Username-Password-Authentication');
+        var policy = getPolicy('OWASP-PW-Policy-DB');
         $('#policy').html('Password policy set to <code>' + policy + '</code>');
 
         var sheriff = new PasswordPolicy(policy);
@@ -36,5 +36,6 @@ $(document).ready(function () {
         });
     }
 
+    // Change this to use your own client ID
     getClientData('jGMow0KO3WDJELW8XIxolqb1XIitjkYL', postClientData);
 });
